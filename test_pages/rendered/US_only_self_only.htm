@@ -1,0 +1,387 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  #addressBookWidgetDiv {width: 400px; height: 228px;}
+  #walletWidgetDiv {width: 400px; height: 228px;}
+  #consentWidgetDiv {width: 400px; height: 140px;}
+</style>
+<script type='text/javascript'>
+  window.onAmazonLoginReady = function() {
+    if (document.getElementById('amazonPayWallet') != null) {
+      amazon.Login.setClientId('amzn1.application-oa2-client.14090829f9834987a37b72a4f63ae72a');
+    }
+  };
+  window.onAmazonPaymentsReady = function() {
+		if (document.getElementById('amazonPayAddressBook') != null) {
+			showAmazonPayButtonWithAddressBook();
+		} else {
+			if (document.getElementById('amazonPayWallet') != null) {
+				showAmazonPayButton();
+			}
+		}
+  };
+</script>
+<script>setTimeout(function() { location.replace("/pubs/Q1/CSI/Error.jsp?cds_mag_code=CSI&vid=7&lsid=51401241010017074&page_id=283316&auto_timeout=true"); }, 905000);</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Template</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="images/Luke/css/jquery.minicolors.css">
+<link href="images/Luke/css/creditCardTypeDetector.css" rel="stylesheet" type="text/css" />
+<link href="images/Luke/css/bootstrap-switch.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="images/single_sub_tmpl.css">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to main content</a>
+<form action="/servlet/Transaction" method="POST" id="engage" NAME="ResponsiveTemplate_v2_US_ONLY1">
+<!-- RESPONSE KEY:  TEST -->
+<INPUT TYPE="HIDDEN" NAME="lsid" VALUE="51401241010017074">
+<INPUT TYPE="HIDDEN" NAME="vid" VALUE="7">
+<INPUT TYPE="HIDDEN" NAME="cds_page_id" VALUE="283316">
+<INPUT TYPE="HIDDEN" NAME="cds_mag_code" VALUE="CSI">
+<INPUT TYPE="HIDDEN" NAME="cds_form_submitted" VALUE="ResponsiveTemplate_v2_US_ONLY:ResponsiveTemplate_v2_US_ONLY1">
+<INPUT TYPE="HIDDEN" NAME="cds_doms_order_number" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="cds_doms_offer_code" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="cds_doms_package_offer_id" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="cds_config_id" VALUE="">
+<INPUT TYPE="HIDDEN" NAME="cds_series_status" VALUE="">
+  <input type="hidden" name="cds_country" value="United States">
+  <header class="navbar navbar-static-top">
+
+  <div id="header_bg">
+    <nav class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <h1><a class="navbar-brand" href="#"><img src="images/cds-logo.png" alt="Home logo" width="185" height="76"></a> </h1>
+      </div>
+      <div class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Give a Gift</a></li>
+          <li><a href="#">Customer Service</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </nav>
+  </div>
+</header>
+  <div class="container" id="Subscribe">
+    <div class="row">
+      <div class="col-md-8">
+        <section class="well" id="main" role="main"> 
+          <div class="sales_txt"> <img src="images/Luke/img/placeholder.jpg" width="120" height="163" class="visible-xs visible-sm sm-cvr" alt="cover"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus neque, dictum ut iaculis vel, tempor eu felis. Donec quam purus, volutpat vitae purus id, rhoncus pretium neque.
+            <div id="tvs">
+              <fieldset>
+                <legend class="sr-only">Offers</legend>
+                <div><input type="RADIO" name="cds_term_value" value="1" data-offer_id="" CHECKED><span id="for_cds_term_value"> US: 12 issues for $12</span><br></div>
+              </fieldset>
+            </div>
+          </div>
+          <h2>Mailing Address</h2>
+          <div class="form-group">
+            <label for="cds_name">Full Name</label>
+            <input name="cds_name" id="cds_name" type="text" class="form-control" maxlength="27" VALUE="">
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="form-group">
+                <label for="cds_address_1">Address</label>
+                <input name="cds_address_1" id="cds_address_1" type="text" class="form-control" maxlength="27" VALUE="">
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="form-group">
+                <label for="cds_address_2">Apt./Suite</label>
+                <input name="cds_address_2" id="cds_address_2" type="text" class="form-control" maxlength="27" VALUE="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5" >
+              <div class="form-group">
+                <label for="cds_city">City</label>
+                <input name="cds_city" id="cds_city" type="text" class="form-control" maxlength="13" VALUE="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="cds_state">State/Province</label>
+                <select name="cds_state" id="cds_state" class="form-control select">
+                  <option value="" selected SELECTED>State/Province</option>
+                  <option value="AK" >Alaska</option><option value="AL" >Alabama</option><option value="AR" >Arkansas</option><option value="AZ" >Arizona</option><option value="CA" >California</option><option value="CO" >Colorado</option><option value="CT" >Connecticut</option><option value="DC" >District of Columbia</option><option value="DE" >Delaware</option><option value="FL" >Florida</option><option value="GA" >Georgia</option><option value="HI" >Hawaii</option><option value="IA" >Iowa</option><option value="ID" >Idaho</option><option value="IL" >Illinois</option><option value="IN" >Indiana</option><option value="KS" >Kansas</option><option value="KY" >Kentucky</option><option value="LA" >Louisiana</option><option value="MA" >Massachusetts</option><option value="MD" >Maryland</option><option value="ME" >Maine</option><option value="MI" >Michigan</option><option value="MN" >Minnesota</option><option value="MO" >Missouri</option><option value="MS" >Mississippi</option><option value="MT" >Montana</option><option value="NC" >North Carolina</option><option value="ND" >North Dakota</option><option value="NE" >Nebraska</option><option value="NH" >New Hampshire</option><option value="NJ" >New Jersey</option><option value="NM" >New Mexico</option><option value="NV" >Nevada</option><option value="NY" >New York</option><option value="OH" >Ohio</option><option value="OK" >Oklahoma</option><option value="OR" >Oregon</option><option value="PA" >Pennsylvania</option><option value="RI" >Rhode Island</option><option value="SC" >South Carolina</option><option value="SD" >South Dakota</option><option value="TN" >Tennessee</option><option value="TX" >Texas</option><option value="UT" >Utah</option><option value="VA" >Virginia</option><option value="VT" >Vermont</option><option value="WA" >Washington</option><option value="WI" >Wisconsin</option><option value="WV" >West Virginia</option><option value="WY" >Wyoming</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-3" >
+              <div class="form-group">
+                <label for="geo">Zip/Postal</label>
+                <input name="cds_zip" id="geo" type="text" class="form-control" maxlength="8" VALUE="">
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="cds_email">Email</label>
+            <input name="cds_email" id="cds_email" type="text" class="form-control" maxlength="50" VALUE="">
+          </div>
+          <br>
+          <br>
+          <h2>Payment Method</h2>
+          <div class="row va" role="group" aria-labelledby="pym">
+            <fieldset class="w100">
+              <legend id="pym" class="sr-only">Payment Method</legend>
+              <div class="col-sm-6 col-md-8 col-lg-6">
+                <div class="form-group">
+                  <label for="card_type" class="sr-only">Card Type</label>
+                  <input name="cds_pay_type" type="radio" id="card_type" value="" CHECKED >
+                  <ul class="card_logos">
+                    <li class="card_visa">Visa</li>
+                    <li class="card_mastercard">Mastercard</li>
+                    <li class="card_amex">American Express</li>
+                    <li class="card_discover">Discover</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-6">
+                <div class="form-group bm">
+                  <input name="cds_pay_type" id="billme" type="radio" value="6" >
+                  <label for="billme">Bill Me Later</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="form-group">
+            <label for="cds_cc_number">Card Number</label>
+            <input name="cds_cc_number" id="cds_cc_number" type="text" class="form-control"  autocomplete="off" maxlength="16" VALUE="">
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="form-group">
+                <label for="cds_cc_exp_month">Expiration Date</label>
+                <select name="cds_cc_exp_month" id="cds_cc_exp_month" class="form-control select">
+                  <option value="" selected SELECTED>Month</option>
+                  <option value="01" >01 - January</option>
+                  <option value="02" >02 - February</option>
+                  <option value="03" >03 - March</option>
+                  <option value="04" >04 - April</option>
+                  <option value="05" >05 - May</option>
+                  <option value="06" >06 - June</option>
+                  <option value="07" >07 - July</option>
+                  <option value="08" >08 - August</option>
+                  <option value="09" >09 - September</option>
+                  <option value="10" >10 - October</option>
+                  <option value="11" >11 - November</option>
+                  <option value="12" >12 - December</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group">
+                <label for="cds_cc_exp_year"><span class="sr-only">Expire Year</span>&nbsp;</label>
+                <select name="cds_cc_exp_year" id="cds_cc_exp_year" class="form-control select">
+                  <option value="" selected SELECTED>Year</option>
+                  <option value="25" >2025</option><option value="26" >2026</option><option value="27" >2027</option><option value="28" >2028</option><option value="29" >2029</option><option value="30" >2030</option><option value="31" >2031</option><option value="32" >2032</option><option value="33" >2033</option><option value="34" >2034</option><option value="35" >2035</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">              
+                <br>
+                <button type="submit" name="send" class="btn btn-lg btn-custom" id="continue">Order Now <i class="fa fa-angle-right"></i></button>
+                <br>
+                <small>Applicable taxes not included</small>
+              
+            </div>
+          </div>
+        </section>
+        
+        <!-- Footer Start -->
+        <div class="row">
+          <footer class="col-md-12 text-center" id="footer">
+           
+              &copy;
+              2025
+              <!--Bountiful Gardens-->Your Brand Here<br>
+              <a href="#">Home</a> | <a href="#">Privacy Policy</a>
+          
+          </footer>
+        </div>
+        <!-- Footer End --> 
+      </div>
+      <aside class="col-md-4 hidden-xs hidden-sm" aria-hidden="true">
+        <div class="well col-md-offset-1">
+          <div id="cover">
+            <div id="carousel-example-generic" class="carousel slide pb20" data-ride="carousel"> 
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active"> <img src="images/Luke/img/placeholder.jpg" alt="cover1" class="w100"> </div>
+                <div class="item"> <img src="images/Luke/img/placeholder2.jpg" alt="cover2" class="w100"> </div>
+                <div class="item"> <img src="images/Luke/img/placeholder3.jpg" alt="cover3" class="w100"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+  
+  <!-- /container -->
+  <input type="hidden" name="cds_postal" value="">
+  <!-- Do not remove -->
+</form>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+<script src="images/Luke/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> 
+<script src="images/Luke/js/jquery.creditCardTypeDetector.js"></script> 
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script> 
+<script>
+$(document).ready(function() {
+    var validator = $("#engage").validate({
+        errorElement: 'div',
+        rules: {
+            cds_name: {
+                required: true
+            },
+            cds_address_1: {
+                required: true
+            },
+            cds_city: {
+                required: true
+            },
+            cds_state: {
+                required: function(element) {
+                    return $("select[name='cds_country']").val() == "United States" || $("select[name='cds_country']").val() == "Canada";
+                }
+            },
+            cds_zip: {
+                required: function(element) {
+                    return $("select[name='cds_country']").val() == "United States" || $("select[name='cds_country']").val() == "Canada";
+                },
+                minlength: 5
+            },
+            cds_country: {
+                required: true
+            },
+            cds_email: {
+                required: true,
+                email: true
+            },
+            cds_cc_number: {
+                required: "#card_type:checked",
+                creditcard: true
+            },
+            cds_cc_exp_month: {
+                required: "#card_type:checked"
+            },
+            cds_cc_exp_year: {
+                required: "#card_type:checked"
+            }
+        },
+        messages: {
+            cds_name: {
+                required: "Please enter a valid name."
+            },
+            cds_address_1: {
+                required: "Please enter a valid street address."
+            },
+            cds_city: {
+                required: "Please enter a valid city."
+            },
+            cds_state: {
+                required: "Please select a state/province."
+            },
+            cds_zip: {
+                required: "Please enter a valid zip/postal.",
+                minlength: "Please enter a valid zip/postal."
+            },
+            cds_country: {
+                required: "Please select a country."
+            },
+            cds_email: {
+                required: "Please enter a valid email address.",
+                email: "Please enter a valid email address."
+            },
+            cds_cc_number: {
+                required: "Please enter a valid credit card number."
+            },
+            cds_cc_exp_month: {
+                required: "Please select an expiration month."
+            },
+            cds_cc_exp_year: {
+                required: "Please select an expiration year."
+            }
+        }
+    });
+    $('#cds_cc_number').creditCardTypeDetector({
+        'credit_card_logos': '.card_logos'
+    });
+/*     function GeoField() {
+        var country = $("select[name='cds_country']").val();
+        if (country == "United States") {
+            $('#geo').attr('name', 'cds_zip');
+        } else if (country == "Canada") {
+            $('#geo').attr('name', 'cds_zip');
+        } else if (country == "") {
+            $('#geo').attr('name', 'cds_zip');
+        } else {
+            $('#geo').attr('name', 'cds_postal');
+        }
+    } */
+/*     $("select[name='cds_country']").change(function() {
+        GeoField(); //Call on country field change
+    }); */
+    // GeoField(); //Call on page load
+    $('#tvs > fieldset > div > input').each(function() {
+        $(this).next('span').andSelf().wrapAll('<label/>');
+    });
+    $('span#for_cds_term_value').removeAttr('id');
+});
+</script>
+<script type="text/javascript">
+(function () {
+var cnv = document.createElement('script');
+	cnv.async = true;
+	var cnvJsHost = (("https:" == document.location.protocol) ? "https://sts.eccmp.com" : "http://sts.eccmp.com");
+	cnv.src = cnvJsHost + '/sts/scripts/conversen-SDK.js';
+	document.getElementsByTagName('body')[0].appendChild(cnv);
+} ());
+
+window.cnvAsyncInit = function() {Cnv.init({
+	custId: '716',
+	entityId: '100',
+	restLink: 'sts.eccmp.com',
+	enableFacebook: false,
+	enableSocialEvents: false
+  });
+}
+</script>
+<script type="text/javascript"> 	function getSelectedShippingAddress(aBillingAgreementId, anAddressConsentToken) {			var xmlhttp=new XMLHttpRequest();			xmlhttp.onreadystatechange = function() { 				if (this.readyState == 4 && this.status == 200) { 					var obj = JSON.parse(this.responseText.substring(2, this.responseText.length-2));					var anElements = document.getElementsByName("cds_city");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].city;					}					var anElements = document.getElementsByName("cds_state");					var i;					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].stateOrRegion;					}					var anElements = document.getElementsByName("cds_address_1");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].addressLine1;					}					var anElements = document.getElementsByName("cds_address_2");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].addressLine2;					}					var anElements = document.getElementsByName("cds_address_3");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].addressLine3;					}					var anElements = document.getElementsByName("cds_name");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].name;					}					var anElements = document.getElementsByName("cds_zip");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].postalCode;					}					var anElements = document.getElementsByName("cds_postal");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].postalCode;					}					var anElements = document.getElementsByName("cds_country");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].country;					}					var anElements = document.getElementsByName("cds_phone_area_code");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].phoneAreaCode;					}					var anElements = document.getElementsByName("cds_phone_prefix");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].phonePrefix;					}					var anElements = document.getElementsByName("cds_phone_suffix");					for (i = 0; i < anElements.length; i++) {					    anElements[i].value = obj[0].phoneSuffix;					}				} 			}; 			var url = '../../../../servlet/GeminiAjaxToolkit?type=amazon_pay_shipping_address&cds_mag_code=CSI&cds_page_id=283316&cds_billing_agreement=' + aBillingAgreementId + '&addressconsenttoken=' + anAddressConsentToken;			xmlhttp.open('GET',url,true);			xmlhttp.send();			return;	}function showAmazonPayDivs() { if (document.getElementById('amazonPayWallet') != null) { 	var selectedPayType = 0; 	if (document.getElementById("cds_pay_type").type == 'radio') {			 var payTypes = document.getElementsByName("cds_pay_type");			 for(var i = 0; i < payTypes.length; i++) {				 if (payTypes[i].checked) { 			 	selectedPayType = payTypes[i].value; 				}			}		} else {			selectedPayType =  document.getElementById("cds_pay_type").value;			}			if (selectedPayType == "26") {  			document.getElementById('amazonPayWallet').style.display = 'inline';				document.getElementById('amazonPayConsent').style.display = 'inline';				document.getElementById('OffAmazonPaymentsWidgets0').click();			}		} } function clickAmazonPayButton() {		if (document.getElementById('amazonPayWallet') != null) {			var selectedPayType = 0; 			if (document.getElementById("cds_pay_type").type == 'radio') {				var payTypes = document.getElementsByName("cds_pay_type");				for(var i = 0; i < payTypes.length; i++) {					if (payTypes[i].checked) { 					selectedPayType = payTypes[i].value; 					}				}			} else {				selectedPayType =  document.getElementById("cds_pay_type").value;			}			if (selectedPayType == "26") { 			document.getElementById('OffAmazonPaymentsWidgets0').click();			} else { 				if (document.getElementById('amazonPayAddressBook') != null) {					document.getElementById('amazonPayAddressBook').style.display = 'none';				} 			document.getElementById('amazonPayWallet').style.display = 'none';				document.getElementById('amazonPayConsent').style.display = 'none';				document.getElementById("cds_billing_agreement").value = "";			} 	} } var addressConsentToken = null;var amazonPayWalletIsShown = false;function showAmazonPayButtonWithAddressBook() {		var authRequest; OffAmazonPayments.Button("AmazonPayButton", "A1GBC3Z5XSIQMI", {				type: "PwA",				color: "Gold",				size: "medium",				useAmazonAddressBook: true,				authorization: function() {					loginOptions = {						scope: "profile payments:widget payments:shipping_address", popup: "true"					}; 			authRequest = amazon.Login.authorize (loginOptions, function(response) {					if ( response.error ) {						return; 					}					addressConsentToken = response.access_token;					if (document.getElementById("cds_pay_type").type == 'radio') {  					var radios = document.getElementsByName("cds_pay_type");						for (var j = 0; j < radios.length; j++) {							if (radios[j].value == '26') {								radios[j].checked = true;  break;							}						}					} else {						document.getElementById("cds_pay_type").value = "26";					} 					document.getElementById('amazonPayAddressBook').style.display = 'inline';					document.getElementById('amazonPayWallet').style.display = 'inline';				    document.getElementById('amazonPayConsent').style.display = 'inline'; 					showAmazonPayAddressBook();				});			},			onError: function(error) { }		});	};function showAmazonPayButton() {		 var authRequest; OffAmazonPayments.Button("AmazonPayButton", "A1GBC3Z5XSIQMI", {				type: "PwA",				color: "Gold",				size: "medium",				authorization: function() {					loginOptions = {						scope: "profile payments:widget", popup: "true"					}; 			authRequest = amazon.Login.authorize (loginOptions, function(response) {					if ( response.error ) {						return; 					}					if (document.getElementById("cds_pay_type").type == 'radio') {  					var radios = document.getElementsByName("cds_pay_type");						for (let j = 0; j < radios.length; j++) {							if (radios[j].value == '26') {								radios[j].checked = true;  break;							}						}					} else {						document.getElementById("cds_pay_type").value = "26";					} 					document.getElementById('amazonPayWallet').style.display = 'inline';				    document.getElementById('amazonPayConsent').style.display = 'inline'; 					showAmazonPayWallet();				});			},			onError: function(error) { }		});	};var billingAgreementId = null;function showAmazonPayAddressBook() {		new OffAmazonPayments.Widgets.AddressBook({ sellerId: 'A1GBC3Z5XSIQMI',			agreementType: 'BillingAgreement',			onReady: function(billingAgreement) {				billingAgreementId = billingAgreement.getAmazonBillingAgreementId();			}, 			design: {				designMode: 'responsive'			},         onError: function(error) { }, 		onAddressSelect: 				function(billingAgreement) {					getSelectedShippingAddress(billingAgreementId, addressConsentToken);                 if (!amazonPayWalletIsShown) {						showAmazonPayWalletWithAddressBook();                 }				},				onError: function(error) { },		}).bind("addressBookWidgetDiv"); };function showAmazonPayWalletWithAddressBook() {     amazonPayWalletIsShown = true;		new OffAmazonPayments.Widgets.Wallet({ sellerId: 'A1GBC3Z5XSIQMI',			amazonBillingAgreementId: billingAgreementId,			agreementType: 'BillingAgreement',			design: {				designMode: 'responsive'			}, 		onPaymentSelect: function(billingAgreement) {				showAmazonPayConsent();			},			onError: function(error) { }		}).bind("walletWidgetDiv"); };function showAmazonPayWallet() {		new OffAmazonPayments.Widgets.Wallet({ sellerId: 'A1GBC3Z5XSIQMI',		onReady: function(billingAgreement) {				billingAgreementId = billingAgreement.getAmazonBillingAgreementId();			},			agreementType: 'BillingAgreement',			design: {				designMode: 'responsive'			}, 		onPaymentSelect: function(billingAgreement) {				showAmazonPayConsent();			},			onError: function(error) { }		}).bind("walletWidgetDiv"); }; function showAmazonPayConsent() {		new OffAmazonPayments.Widgets.Consent({ sellerId: 'A1GBC3Z5XSIQMI', 			amazonBillingAgreementId: billingAgreementId,			design: {				designMode: 'responsive' 			},			onReady: function(billingAgreementConsentStatus) { 			buyerBillingAgreementConsentStatus = billingAgreementConsentStatus.getConsentStatus();				if (buyerBillingAgreementConsentStatus == 'true') { 				document.getElementById("cds_billing_agreement").value = billingAgreementId;				} else {					document.getElementById("cds_billing_agreement").value = "";				}			}, 		onConsent: function(billingAgreementConsentStatus) {				buyerBillingAgreementConsentStatus = billingAgreementConsentStatus.getConsentStatus(); 			if (buyerBillingAgreementConsentStatus == 'true') {					document.getElementById("cds_billing_agreement").value = billingAgreementId;				} else { 				document.getElementById("cds_billing_agreement").value = "";				}			},			onError: function(error) { } 		}).bind("consentWidgetDiv"); };	</script><script async="async" src='https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js'> </script></body>
+</html>
+
