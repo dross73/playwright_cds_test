@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 100  # Still set a preferred width
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F"]  # Enable these rule sets
+ignore = ["E501"]    # Ignore line length warnings (useful for logging or print-heavy code)

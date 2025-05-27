@@ -125,14 +125,19 @@ def run_discovery(user_input):
                             )
                             continue
                         elif region == "INTL":
-                             # For INTL testing, we want to ensure the dropdown includes *any* country besides US and CAN
-                             # First, assume INTL is supported only if the dropdown has other country options
+                            # For INTL testing, we want to ensure the dropdown includes *any* country besides US and CAN
+                            # First, assume INTL is supported only if the dropdown has other country options
                             intl_supported = any(
                                 c
                                 for c in normalized_options
-                                if c not in ["united states", "canada", ""] # Filters out US CAN and blank values
+                                if c
+                                not in [
+                                    "united states",
+                                    "canada",
+                                    "",
+                                ]  # Filters out US CAN and blank values
                             )
-                             # If there are no other countries, skip testing INTL for this page
+                            # If there are no other countries, skip testing INTL for this page
                             if not intl_supported:
                                 log(
                                     f"Skipping {url} - Region INTL not supported (dropdown only includes US or CAN)"
@@ -195,8 +200,7 @@ def fill_form(page, region):
 
         # If there are no selectable terms, we'll try submitting anyway later
         if term_count == 0:
-            log(f"No selectable offers found - proceeding without selecting one")
-            selected_term = None
+            log("No selectable offers found - proceeding without selecting one")
         else:
             for i in range(term_count):
                 try:
