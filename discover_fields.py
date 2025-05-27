@@ -6,6 +6,7 @@ from gui import (
 
 country_map = {"US": "United States", "CAN": "Canada", "INTL": "United Kingdom"}
 
+test_unused = "just testing Ruff"
 
 # This is the path where we'll store the inspection results
 LOG_FILE = "logs/field_log.txt"
