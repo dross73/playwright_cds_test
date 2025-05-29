@@ -1,5 +1,7 @@
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.4.6  # Use latest release: https://github.com/astral-sh/ruff-pre-commit/releases
+    rev: v0.11.12  # Latest release at time of writing
     hooks:
-      - id: ruff
+      - id: ruff-check      # Runs the linter (includes rule checks like F841, E501, etc.)
+        args: [--fix]        # Auto-fix what it safely can
+      - id: ruff-format     # Formats code using Ruff's Black-compatible formatter
