@@ -1,105 +1,28 @@
 
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152 (Region: US) ---
+============================================================
+Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+Region: US
 Tried selecting term index 0 for region US
-Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1748024601403&lsid=51431323214017841&vid=1
+Skipping CVV: cds_cc_security_code not found on page
+Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069615683&lsid=51551540156020479&vid=1
 Submission successful for region US
 
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152 (Region: CAN) ---
+============================================================
+Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+Region: CAN
 Tried selecting term index 0 for region CAN
-Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1748024609945&lsid=51431323214017841&vid=2
+Skipping CVV: cds_cc_security_code not found on page
+Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069623188&lsid=51551540156020479&vid=2
 Submission successful for region CAN
 
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152 (Region: INTL) ---
+============================================================
+Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+Region: INTL
 Tried selecting term index 0 for region INTL
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1748024617279&lsid=51431323214017841&vid=3
-Submission successful for region INTL
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283316 (Region: US) ---
-Tried selecting term index 0 for region US
-Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2_US_ONLY.jsp?cds_page_id=283316&cds_mag_code=CSI&id=1748024624371&lsid=51431323214017841&vid=4
-Submission successful for region US
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283316 (Region: CAN) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283316 - Region CAN not supported (hidden input shows United States)
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283316 (Region: INTL) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283316 - Region INTL not supported (hidden input shows United States)
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283317 (Region: US) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283317 - Region US not supported (hidden input shows Canada)
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283317 (Region: CAN) ---
-Tried selecting term index 0 for region CAN
-Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2_CAN_ONLY.jsp?cds_page_id=283317&cds_mag_code=CSI&id=1748024629719&lsid=51431323214017841&vid=8
-Submission successful for region CAN
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283317 (Region: INTL) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283317 - Region INTL not supported (hidden input shows Canada)
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283318 (Region: US) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283318 - Region US not supported in dropdown
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283318 (Region: CAN) ---
-Skipping https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283318 - Region CAN not supported in dropdown
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=283318 (Region: INTL) ---
-Tried selecting term index 0 for region INTL
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2_INT_ONLY.jsp?cds_page_id=283318&cds_mag_code=CSI&id=1748024638467&lsid=51431323214017841&vid=12
-Submission successful for region INTL
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224018 (Region: US) ---
-Tried selecting term index 0 for region US
-Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024645036&lsid=51431323214017841&vid=13
-Submission successful for region US
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224018 (Region: CAN) ---
-Tried selecting term index 0 for region CAN
-Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024651482&lsid=51431323214017841&vid=14
-Submission error detected for region CAN: The country specified in the address and the subscription option do not match. Please correct.
-
-Tried selecting term index 1 for region CAN
-Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024654518&lsid=51431323214017841&vid=14
-Submission successful for region CAN
-
---------------------------------------------------
-
---- Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224018 (Region: INTL) ---
-Tried selecting term index 0 for region INTL
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024662201&lsid=51431323214017841&vid=15
-Submission error detected for region INTL: The country specified in the address and the subscription option do not match. Please correct.
-
-Tried selecting term index 1 for region INTL
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024665292&lsid=51431323214017841&vid=15
-Submission error detected for region INTL: The country specified in the address and the subscription option do not match. Please correct.
-
-Tried selecting term index 2 for region INTL
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_v2.jsp?cds_page_id=224018&cds_mag_code=CSI&id=1748024669516&lsid=51431323214017841&vid=15
-Submission successful for region INTL
+Skipping CVV: cds_cc_security_code not found on page
+Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069630416&lsid=51551540156020479&vid=3
+Error submitting form for region INTL at https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_Conf_v2.jsp?cds_page_id=224224&cds_mag_code=CSI&id=1749069633901&lsid=51551540156020479&vid=3: Page.query_selector: Target page, context or browser has been closed
+Region summary for this URL:
+  US: Tested
+  CAN: Tested
+  INTL: Tested
