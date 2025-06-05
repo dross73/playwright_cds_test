@@ -1,28 +1,28 @@
-
+2025-06-05 14:33:03,330 - INFO - 
 ============================================================
-Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-Region: US
-Tried selecting term index 0 for region US
-Skipping CVV: cds_cc_security_code not found on page
-Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069615683&lsid=51551540156020479&vid=1
-Submission successful for region US
-
+2025-06-05 14:33:03,330 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+2025-06-05 14:33:03,331 - INFO - Region: US
+2025-06-05 14:33:04,985 - INFO - Tried selecting term index 0 for region US
+2025-06-05 14:33:05,780 - WARNING - Skipping CVV: cds_cc_security_code not found on page
+2025-06-05 14:33:05,781 - INFO - Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151981731&lsid=51561433017027121&vid=1
+2025-06-05 14:33:09,458 - INFO - Submission successful for region US
+2025-06-05 14:33:10,130 - INFO - 
 ============================================================
-Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-Region: CAN
-Tried selecting term index 0 for region CAN
-Skipping CVV: cds_cc_security_code not found on page
-Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069623188&lsid=51551540156020479&vid=2
-Submission successful for region CAN
-
+2025-06-05 14:33:10,130 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+2025-06-05 14:33:10,130 - INFO - Region: CAN
+2025-06-05 14:33:11,773 - INFO - Tried selecting term index 0 for region CAN
+2025-06-05 14:33:12,564 - WARNING - Skipping CVV: cds_cc_security_code not found on page
+2025-06-05 14:33:12,564 - INFO - Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151989355&lsid=51561433017027121&vid=2
+2025-06-05 14:33:16,149 - INFO - Submission successful for region CAN
+2025-06-05 14:33:16,775 - INFO - 
 ============================================================
-Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-Region: INTL
-Tried selecting term index 0 for region INTL
-Skipping CVV: cds_cc_security_code not found on page
-Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749069630416&lsid=51551540156020479&vid=3
-Error submitting form for region INTL at https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_Conf_v2.jsp?cds_page_id=224224&cds_mag_code=CSI&id=1749069633901&lsid=51551540156020479&vid=3: Page.query_selector: Target page, context or browser has been closed
-Region summary for this URL:
-  US: Tested
-  CAN: Tested
-  INTL: Tested
+2025-06-05 14:33:16,775 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
+2025-06-05 14:33:16,775 - INFO - Region: INTL
+2025-06-05 14:33:18,394 - INFO - Tried selecting term index 0 for region INTL
+2025-06-05 14:33:19,184 - WARNING - Skipping CVV: cds_cc_security_code not found on page
+2025-06-05 14:33:19,185 - INFO - Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151996040&lsid=51561433017027121&vid=3
+2025-06-05 14:33:22,859 - INFO - Submission successful for region INTL
+2025-06-05 14:33:22,859 - INFO - Region summary for this URL:
+2025-06-05 14:33:22,859 - INFO -   US: Tested
+2025-06-05 14:33:22,859 - INFO -   CAN: Tested
+2025-06-05 14:33:22,859 - INFO -   INTL: Tested

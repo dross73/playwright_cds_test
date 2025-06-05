@@ -1,13 +1,14 @@
 import tkinter as tk  # Main GUI toolkit
+from typing import Dict, List
 from tkinter import messagebox  # for popup error messages
 
 
 # This function creates the GUI, collects user input, and returns it as a dictionary
-def get_user_input():
+def get_user_input() -> Dict[str, List[str]]:
     # This nested function is triggered when the user clicks the "Run Tests" button
-    def submit():
+    def submit() -> None:
         # Get the full text from the multi-line Text widget
-        url_input = text_box.get("1.0", tk.END) # First char until the end 
+        url_input = text_box.get("1.0", tk.END)  # First char until the end
 
         # Split the text into lines, strip whitespace, and ignore empty lines
         urls = [url.strip() for url in url_input.strip().splitlines() if url.strip()]
@@ -32,7 +33,7 @@ def get_user_input():
             return
 
         # Store all collected data in a dictionary
-        input_data["urls"] = urls        
+        input_data["urls"] = urls
         # input_data["region"] = region
         input_data["pay_types"] = pay_types
 
@@ -42,9 +43,9 @@ def get_user_input():
     # This dictionary will hold all the user input and get returned at the end.
     input_data = {}
 
-    #Create the main GUI window
+    # Create the main GUI window
     root = tk.Tk()
-    root.title("QC Test Input") # Set the window title
+    root.title("QC Test Input")  # Set the window title
 
     # Label above the text box
     tk.Label(root, text="Enter one URL per line:").pack(padx=10, pady=(10, 0))
@@ -66,7 +67,7 @@ def get_user_input():
     pay_options = ["Credit Card", "PayPal", "Amazon"]
     pay_listbox = tk.Listbox(root, selectmode=tk.MULTIPLE, height=len(pay_options))
     for option in pay_options:
-          pay_listbox.insert(tk.END, option)
+        pay_listbox.insert(tk.END, option)
     pay_listbox.pack(padx=10, pady=(0, 10))
 
     # Submit button to trigger the test
@@ -77,7 +78,3 @@ def get_user_input():
 
     # Return the dictionary of user inputs to the caller
     return input_data
-
-
-
-
