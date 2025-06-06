@@ -1,18 +1,33 @@
-import os  # Used for checking if the logs folder exists and creating it
+# Used for checking if the logs folder exists and creating it
+import os
+
+# sync_playwright launches the browser; Page represents a single browser tab
 from playwright.sync_api import (
     sync_playwright,
     Page,
-)  # sync_playwright launches the browser; Page represents a single browser tab
+)
+
+# For specifying user_input as a dictionary with string keys and any type of values
 from typing import (
     Dict,
     Any,
-)  # For specifying user_input as a dictionary with string keys and any type of values
+)
+
+# Import the TestData model and Address class used to structure form input.
+# These Pydantic models ensure all test data is well-defined and validated before use.
 from test_data import TestData, Address
+
+# Import credit card test values from config.py.
+# These are stored separately from the main code to keep sensitive data organized and secure.
 from config import CREDIT_CARD_NUMBER, CC_EXP_MONTH, CC_EXP_YEAR, CC_CVV
-import logging  # For structured logging to file and console
+
+# For structured logging to file and console
+import logging
+
+# Imports your GUI function to get test inputs from the user
 from gui import (
     get_user_input,
-)  # Imports your GUI function to get test inputs from the user
+)
 
 
 logging.basicConfig(

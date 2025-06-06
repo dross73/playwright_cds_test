@@ -30,6 +30,8 @@ class TestData(BaseModel):
     donee: Optional[Address] = None  # Gift recipient info, only used on gift pages
 
 
+# These example test cases are not used in automation but are kept as templates
+# for how TestData is structured, useful for debugging, documentation, or future tests.
 # Create an example US test case using the TestData model.
 us_test = TestData(
     region="US",

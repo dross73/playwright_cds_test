@@ -22,4 +22,4 @@ def test_us_form_submission() -> None:
     result = run_test(test_url, test_data)
 
     # Assert that the test succeeded
-    assert result is True, "Form submission failed - expected success"
+    assert result is True, "Form submission failed - expected success"  # nosec

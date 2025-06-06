@@ -1,3 +1,6 @@
+# Config values are centralized here for easy reuse across the project.
+# Sensitive values should be loaded from a .env file (not committed) and accessed via this module,
+# keeping business logic clean and secure.
 import os
 from dotenv import load_dotenv
 # Required: will raise KeyError if missing
