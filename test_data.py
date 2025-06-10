@@ -20,6 +20,7 @@ class Address(BaseModel):
     zip: Optional[str] = None
     postal: Optional[str] = None
     country: Optional[str] = "US"
+    email: Optional[str] = None
 
 
 # Main test data container for a single form submission test.
@@ -42,6 +43,8 @@ us_test = TestData(
         city="Des Moines",
         state="IA",
         zip="50309",
+        country="United States",
+        email="me@home.com",
     ),
 )
 
@@ -57,6 +60,7 @@ can_test = TestData(
         state="ON",  # Province — required for CAN
         zip="M5H 2N2",  # Some Canadian forms may use 'zip' or 'postal'
         country="CA",
+        email="me@home.com",
     ),
 )
 
@@ -70,6 +74,7 @@ intl_test = TestData(
         city="Berlin",
         postal="10115",  # Postal code used for INTL instead of zip
         country="DE",
+        email="me@home.com",
     ),
 )
 
@@ -83,6 +88,7 @@ gift_test = TestData(
         city="Chicago",
         state="IL",
         zip="60601",
+        email="me@home.com",
     ),
     donee=Address(
         name="Gift Recipient",
@@ -90,6 +96,7 @@ gift_test = TestData(
         city="Springfield",
         state="IL",
         zip="62704",
+        email="me@home.com",
     ),
 )
 

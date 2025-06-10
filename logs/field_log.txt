@@ -1,28 +1,40 @@
-2025-06-05 14:33:03,330 - INFO - 
+2025-06-10 12:46:59,096 - INFO - 
 ============================================================
-2025-06-05 14:33:03,330 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-2025-06-05 14:33:03,331 - INFO - Region: US
-2025-06-05 14:33:04,985 - INFO - Tried selecting term index 0 for region US
-2025-06-05 14:33:05,780 - WARNING - Skipping CVV: cds_cc_security_code not found on page
-2025-06-05 14:33:05,781 - INFO - Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151981731&lsid=51561433017027121&vid=1
-2025-06-05 14:33:09,458 - INFO - Submission successful for region US
-2025-06-05 14:33:10,130 - INFO - 
+2025-06-10 12:46:59,097 - INFO - Inspecting: https://admin.buysub.com/servlet/GiftsGateway?cds_mag_code=CSI&cds_page_id=44452
+2025-06-10 12:46:59,097 - INFO - Region: US
+2025-06-10 12:47:00,679 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:00,679 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:00,725 - INFO - Checked gift term checkbox (cds_donee1_term_value)
+2025-06-10 12:47:01,942 - INFO - Skipping donee email: not found or not provided
+2025-06-10 12:47:02,496 - INFO - Selected donee country: United States
+2025-06-10 12:47:02,811 - INFO - Filled donee (gift recipient) fields
+2025-06-10 12:47:03,880 - INFO - Selected payment type from dropdown: Visa (2)
+2025-06-10 12:47:03,931 - WARNING - Skipping CVV: cds_cc_security_code not found on page
+2025-06-10 12:47:03,931 - INFO - Submitting form for region US at URL: https://admin.buysub.com/pubs/Q1/CSI/mult_gift_prgressTV.jsp?cds_page_id=44452&cds_mag_code=CSI&id=1749577617179&lsid=51611246571013155&vid=1
+2025-06-10 12:47:08,211 - INFO - Submission successful for region US
+2025-06-10 12:47:08,586 - INFO - 
 ============================================================
-2025-06-05 14:33:10,130 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-2025-06-05 14:33:10,130 - INFO - Region: CAN
-2025-06-05 14:33:11,773 - INFO - Tried selecting term index 0 for region CAN
-2025-06-05 14:33:12,564 - WARNING - Skipping CVV: cds_cc_security_code not found on page
-2025-06-05 14:33:12,564 - INFO - Submitting form for region CAN at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151989355&lsid=51561433017027121&vid=2
-2025-06-05 14:33:16,149 - INFO - Submission successful for region CAN
-2025-06-05 14:33:16,775 - INFO - 
+2025-06-10 12:47:08,586 - INFO - Inspecting: https://admin.buysub.com/servlet/GiftsGateway?cds_mag_code=CSI&cds_page_id=44452
+2025-06-10 12:47:08,586 - INFO - Region: CAN
+2025-06-10 12:47:10,081 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:10,081 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:10,152 - INFO - Checked gift term checkbox (cds_donee1_term_value)
+2025-06-10 12:47:11,390 - INFO - Skipping donee email: not found or not provided
+2025-06-10 12:47:11,973 - INFO - Selected donee country: Canada
+2025-06-10 12:47:12,279 - WARNING - Donee state 'QC' not found in dropdown — skipping
+2025-06-10 12:47:12,645 - INFO - 
 ============================================================
-2025-06-05 14:33:16,775 - INFO - Inspecting: https://admin.buysub.com/servlet/OrdersGateway?cds_mag_code=CSI&cds_page_id=224152
-2025-06-05 14:33:16,775 - INFO - Region: INTL
-2025-06-05 14:33:18,394 - INFO - Tried selecting term index 0 for region INTL
-2025-06-05 14:33:19,184 - WARNING - Skipping CVV: cds_cc_security_code not found on page
-2025-06-05 14:33:19,185 - INFO - Submitting form for region INTL at URL: https://admin.buysub.com/pubs/Q1/CSI/ResponsiveTemplate_Multi_v2.jsp?cds_page_id=224152&cds_mag_code=CSI&id=1749151996040&lsid=51561433017027121&vid=3
-2025-06-05 14:33:22,859 - INFO - Submission successful for region INTL
-2025-06-05 14:33:22,859 - INFO - Region summary for this URL:
-2025-06-05 14:33:22,859 - INFO -   US: Tested
-2025-06-05 14:33:22,859 - INFO -   CAN: Tested
-2025-06-05 14:33:22,859 - INFO -   INTL: Tested
+2025-06-10 12:47:12,646 - INFO - Inspecting: https://admin.buysub.com/servlet/GiftsGateway?cds_mag_code=CSI&cds_page_id=44452
+2025-06-10 12:47:12,646 - INFO - Region: INTL
+2025-06-10 12:47:14,220 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:14,220 - INFO - Selected self-subscription term (cds_term_value)
+2025-06-10 12:47:14,247 - INFO - Checked gift term checkbox (cds_donee1_term_value)
+2025-06-10 12:47:15,456 - WARNING - Donee POSTAL field not found — skipping postal for donee
+2025-06-10 12:47:15,462 - INFO - Skipping donee email: not found or not provided
+2025-06-10 12:47:16,028 - INFO - Selected donee country: France
+2025-06-10 12:47:16,030 - INFO - Filled donee (gift recipient) fields
+2025-06-10 12:47:16,693 - WARNING - Skipping page: INTL selected but no cds_postal field found
+2025-06-10 12:47:16,693 - INFO - Region summary for this URL:
+2025-06-10 12:47:16,694 - INFO -   US: Tested
+2025-06-10 12:47:16,694 - INFO -   CAN: Tested
+2025-06-10 12:47:16,694 - INFO -   INTL: Tested
