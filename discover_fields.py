@@ -530,7 +530,7 @@ def fill_form(page: Page, test_data: TestData) -> None:
                 pay_type_selector.select_option("2")  # Visa
                 logging.info("Selected payment type from dropdown: Visa (2)")
             except Exception as e:
-                logging.warning(f"Failed to select Visa from payment dropdown: {e}")  # nosec
+                logging.warning(f"Failed to select Visa from payment dropdown: {e}")  # nosec B608: false positive, not SQL
 
         elif tag == "input":
             try:
