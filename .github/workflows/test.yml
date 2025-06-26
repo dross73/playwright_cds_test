@@ -17,13 +17,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Poetry (if using it)
+      - name: Install dependencies
         run: |
-          pip install poetry
-          poetry install
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install ruff pytest
 
       - name: Run Ruff
-        run: poetry run ruff check .
+        run: ruff check .
 
       - name: Run Pytest
-        run: poetry run pytest
+        run: pytest
