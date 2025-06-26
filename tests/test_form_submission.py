@@ -1,4 +1,5 @@
-# Import pytest and Playwright's sync API
+# This test file is auto-discovered and run by pytest
+# It uses built-in `assert` statements and helper functions from your main code
 import sys
 import os
 
