@@ -597,7 +597,7 @@ def run_test(url: str, test_data: TestData) -> bool:
     """
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)
+            browser = p.chromium.launch(headless=True)
             page = browser.new_page()
             page.goto(url, timeout=10000)
 
