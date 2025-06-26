@@ -201,7 +201,7 @@ def run_discovery(user_input: Dict[str, Any]) -> None:
 
     # Start Playwright and launch the browser (Chromium in visible mode)
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         # Loop through each user-provided URL and inspect it
