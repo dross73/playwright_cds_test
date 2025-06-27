@@ -22,13 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install ruff pytest playwright
-
+      - name: Install Playwright Browsers
       - name: Install Playwright Browsers
         run: playwright install
 
-
       - name: Run Ruff
         run: ruff check .
-
-      - name: Run Pytest
         run: pytest
